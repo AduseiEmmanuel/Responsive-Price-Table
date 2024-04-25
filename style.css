@@ -1,0 +1,75 @@
+body,
+h2,
+ul,
+li,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #15a79a;
+}
+
+.Pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.Pricing-card {
+    background-color:#dedbe2;
+    text-align: center;
+    padding: 25px;
+    margin:0 20px;
+    border: 10px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgb(46, 35, 35)
+}
+
+.Pricing-card h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.Pricing-card .Pricing {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Pricing-card ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.Pricing-card ul li {
+    margin-bottom: 20px;
+}
+
+.Pricing-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.Pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.Pricing-card,
+.recommended {
+    border: 2px solid #333;
+}
+
+.Pricing-card.recommended h2 {
+    color: #333;
+}
